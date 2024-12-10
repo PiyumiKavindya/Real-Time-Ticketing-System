@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: changes/initial-schema.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/user-tables.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/event-tables.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: changes/ticket-tables.yaml
+      relativeToChangelogFile: true
